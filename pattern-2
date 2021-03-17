@@ -1,0 +1,8 @@
+aValue = 65     #ASCII value of A  
+for i in range(0, 5):  
+    for j in range(0, i + 1):  
+        # It will convert the ASCII value to the character  
+        alpha = chr(aValue)  
+        print(alpha, end=' ')  
+        aValue += 1  
+    print()
